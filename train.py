@@ -45,7 +45,6 @@ def main():
     net = net.float()
     net.to(device)
     loss_function = nn.CrossEntropyLoss()
-    # pata = list(net.parameters())
     optimizer = optim.Adam(net.parameters(), lr=0.0002)
 
     epochs = 100
