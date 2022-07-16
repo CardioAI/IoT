@@ -1,7 +1,6 @@
 import os
 import sys
 import json
-ssh-keygen -t ed25519 -C "kaidongwang@mednet.ucla.edu"
 import torch
 import torch.nn as nn
 from torchvision import transforms, datasets, utils
